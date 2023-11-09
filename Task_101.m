@@ -20,7 +20,7 @@ for r=1:x2
     end
 end
 
-M2=reshape(B,x2,y2);
+B=reshape(B,x2,y2);
   if y1~=x2
     fprintf('Error! The matrix multiplication is not possible\n');
   else
